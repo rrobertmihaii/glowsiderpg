@@ -1,0 +1,95 @@
+body{
+	font-family: 'Poppins', sans-serif;
+	background-color: black;
+	color: white;
+}
+.navbar{
+	font-size: 20px;
+	justify-content: space-between;
+	display: flex;
+	padding: 10px 10px;
+}
+.right{
+
+	display: block;
+	padding: 0 40px;
+}
+.right:hover{
+
+	display: block;
+	padding: 0 40px;
+}
+.nav-link{
+	transition: transform .2s;
+	font-size: 15px;
+	height: 10px;
+	background-color: rgb(220 220 220 / 10%);
+	border-radius: 10px;
+	padding:6px 19px;
+	color: white;
+}
+.nav-link:hover{
+	transform: scale(1.5);
+	background-color: rgb(128 128 128 / 10%);
+	border-radius: 100px;
+	padding:6px 19px;
+	color: gray;
+	transition: all 1.5s;
+	text-shadow:0 0 1rem rgb(255 255 255 / 100%);
+}
+a{
+	text-decoration: none;
+}
+.actor{
+	text-shadow:0 0 1rem rgb(0 0 9);
+	shadow:0 0 1rem rgb(255 255 255);
+	margin-left: 10px;
+	display: flex;
+	margin-top: 1px;
+	margin-left: 110px;
+}
+.maintxt {
+	text-shadow: 0 0 3rem rgb(255 255 255 );
+    font-size: 2rem;
+    display: flex;
+    margin-top: -28rem;
+    margin-left: 57rem;
+}
+.sectxt {
+	text-shadow: 0 0 2rem rgb(255 255 255 );
+    font-size: 1rem;
+    display: flex;
+    margin-top: -2rem;
+    margin-left: 915px;
+}
+.copyright{
+	color: white;
+	margin-left: 25rem;
+	margin-top: 12rem;
+	text-shadow: 0 0 1rem rgb(255 255 255 );
+}
+.copyright:hover{
+	transition: all 1s;
+	color: gray;
+	margin-left: 25rem;
+	margin-top: 11rem;
+	text-shadow: 0 0 1rem rgb(255 255 255 );
+}
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: gray;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: snow;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
